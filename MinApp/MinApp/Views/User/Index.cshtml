@@ -1,0 +1,19 @@
+@model List<MinApp.Models.User>
+
+    <h2>User List</h2>
+
+    <table>
+    <tr>
+    <th>Name</th>
+    <th>Age</th>
+    </tr>
+    @foreach (var user in Model)
+{
+    <tr>
+        <td>@user.Name</td>
+        <td>@user.Age</td>
+        </tr>
+}
+</table>
+
+    <a href="/User/Create">Add User</a>
