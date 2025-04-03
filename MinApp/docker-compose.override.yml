@@ -1,0 +1,5 @@
+﻿services:
+  minapp:
+    command: dotnet watch run --urls=http://0.0.0.0:8080
+    volumes:
+      - ./MinApp:/app  # Share codes with host

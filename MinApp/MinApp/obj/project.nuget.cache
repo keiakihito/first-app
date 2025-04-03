@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9baoxdPzfv4=",
+  "dgSpecHash": "Ns+2VuCaPVw=",
   "success": true,
-  "projectFilePath": "/Users/keita-katsumi/Dropbox/Programing/GitHub/C#/first-app/MinApp/MinApp/MinApp.csproj",
+  "projectFilePath": "/app/MinApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

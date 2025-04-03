@@ -8,19 +8,19 @@
     "net9.0": []
   },
   "packageFolders": {
-    "/Users/keita-katsumi/.nuget/packages/": {}
+    "/root/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/keita-katsumi/Dropbox/Programing/GitHub/C#/first-app/MinApp/MinApp/MinApp.csproj",
+      "projectUniqueName": "/app/MinApp.csproj",
       "projectName": "MinApp",
-      "projectPath": "/Users/keita-katsumi/Dropbox/Programing/GitHub/C#/first-app/MinApp/MinApp/MinApp.csproj",
-      "packagesPath": "/Users/keita-katsumi/.nuget/packages/",
-      "outputPath": "/Users/keita-katsumi/Dropbox/Programing/GitHub/C#/first-app/MinApp/MinApp/obj/",
+      "projectPath": "/app/MinApp.csproj",
+      "packagesPath": "/root/.nuget/packages/",
+      "outputPath": "/app/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/keita-katsumi/.nuget/NuGet/NuGet.Config"
+        "/root/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -68,7 +68,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

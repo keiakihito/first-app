@@ -1,0 +1,22 @@
+# This is a generated file. Not intended for manual editing.
+services:
+  minapp:
+    build:
+      context: "/Users/keita-katsumi/Dropbox/Programing/GitHub/C#/first-app/MinApp"
+      dockerfile: "MinApp/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net9.0/MinApp.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      ASPNETCORE_STATICWEBASSETS: "/app/bin/Debug/net9.0/MinApp.staticwebassets.runtime.CT.json"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "minapp:dev"
+    ports: []
+    volumes:
+    - "/Users/keita-katsumi/Dropbox/Programing/GitHub/C#/first-app/MinApp/MinApp:/app:rw"
+    - "/Users/keita-katsumi/Dropbox/Programing/GitHub/C#/first-app/MinApp:/src:rw"
+    - "/Users/keita-katsumi/.nuget/packages:/home/app/.nuget/packages"
+    working_dir: "/app"

@@ -3,6 +3,9 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+// Add explicitly hort number to avoid troubles
+builder.WebHost.UseUrls("http://*:8080");
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
